@@ -1,0 +1,12 @@
+Number of states as int
+Alphabet as strings separated by spaces
+int T indicating number of following transition lines
+0 a 1
+0 b 2
+0 a 2
+1 a 1
+1 b 2
+2 a 2
+2 b 2
+Starting state as int
+Accepting states as ints separated by spaces

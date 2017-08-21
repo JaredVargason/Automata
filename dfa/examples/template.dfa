@@ -1,0 +1,8 @@
+Number of states, ie. 3
+Alphabet, separated by spaces, ie. "a b c d"
+Transition function: MxN where M is number of states and N is Alphabet length ie. States start numbering from 0. 
+1 1 2 0
+0 1 2 0
+1 2 1 0
+Start state, ie. 0
+Accepting states, separated by spaces, ie. "1 2"
