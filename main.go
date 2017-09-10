@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	absPath, _ := filepath.Abs("dfa/examples/dfa.dfa")
+	absPath, _ := filepath.Abs("dfa/examples/startsWithOneOne.dfa")
 	fmt.Printf(absPath + "\n")
 	dfa, _ := dfa.ReadDfaFromFile(filepath.FromSlash(absPath))
 	fmt.Printf("%+v\n", dfa)
