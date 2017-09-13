@@ -9,9 +9,10 @@ import (
 )
 
 // Nfa Representation of a Nondeterministic Finite Automaton (NFA)
+// "0" represents the empty string and is used in the transition function.
 type Nfa struct {
 	states          int
-	alphabet        []string //-1 denotes empty string
+	alphabet        []string 
 	transition      []map[string][]int
 	startState      int
 	acceptingStates []int
